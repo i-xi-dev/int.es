@@ -1,5 +1,5 @@
 import { assertStrictEquals } from "std/testing/asserts";
-import { Integer } from "../src/int.ts";
+import { Integer } from "../mod.ts";
 
 Deno.test("Integer.isNonNegativeInteger(number)", () => {
   assertStrictEquals(Integer.isNonNegativeInteger(-1), false);
