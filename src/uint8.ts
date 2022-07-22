@@ -276,7 +276,7 @@ namespace Uint8 {
   /**
    * Determines whether the passed value is an 8-bit unsigned integer.
    *
-   * @param value The value to be tested
+   * @param value - The value to be tested
    * @returns Whether the passed value is an 8-bit unsigned integer.
    */
   export function isUint8(value: unknown): value is uint8 {

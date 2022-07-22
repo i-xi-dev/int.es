@@ -2,7 +2,7 @@ namespace Integer {
   /**
    * Determines whether the passed value is a nonnegative safe integer.
    *
-   * @param value The value to be tested
+   * @param value - The value to be tested
    * @returns Whether the passed value is a nonnegative safe integer.
    */
   export function isNonNegativeInteger(value: unknown): boolean {
@@ -15,7 +15,7 @@ namespace Integer {
   /**
    * Determines whether the passed value is a positive safe integer.
    *
-   * @param value The value to be tested
+   * @param value - The value to be tested
    * @returns Whether the passed value is a positive safe integer.
    */
   export function isPositiveInteger(value: unknown): boolean {
